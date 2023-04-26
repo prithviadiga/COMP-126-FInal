@@ -1,0 +1,80 @@
+* {
+    background-color: #eec8e0;
+}
+
+.imagestyle {
+    height: 30%;
+    border-radius: 10%;
+}
+
+.lightpinkBG {
+    background-color: #FFAFF0;
+}
+
+.center {
+    justify-content: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 8.5em 5em 0.5fr 5em 5em;
+    grid-template-areas: "header" "nav" "contentArea" "form" "footer";
+}
+
+.header {
+    grid-area: header;
+    display: flex;
+    background-color: #F092DD;
+    font-family: 'Mr Bedfort', cursive;
+    font-size: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.oval {
+    width: 40%;
+    background: #FFAFF0;
+    border-radius: 50%;
+    border: solid #a8c7bb 5px;
+}
+
+.nav {
+    grid-area: nav;
+    display: flex;
+    background-color: #FFAFF0;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.contentArea {
+    grid-area: contentArea;
+    display: flex;
+    font-family: 'Fredericka the Great', cursive;
+    padding: 15px;
+}
+
+.form {
+    grid-area: form;
+    display: flex;
+    background-color: #F092DD;
+    border-color: #392F5A;
+    border-radius: 10%;
+    padding: 15px;
+}
+
+.formBox {
+    background-color: #eec8e0;
+}
+
+.footer {
+    grid-area: footer;
+    display: flex;
+    background-color: #F092DD;
+    position: sticky;
+    bottom: 0;
+}
