@@ -1,60 +1,78 @@
 @import url("https://fonts.googleapis.com/css2?family=Baskervville&family=Fredericka+the+Great&display=swap");
 .title {
-    background-color: #ffaff0;
-    display: flex;
-    justify-content: center;
+  background-color: #ffaff0;
+  display: flex;
+  justify-content: center;
 }
 
 .aboutus {
-    background-color: #eec8e0;
+  background-color: #eec8e0;
 }
 
 .Employees {
-    font-family: "Fredericka the Great", cursive;
+  font-family: "Fredericka the Great", cursive;
 }
 
 .Mission-Statement {
-    font-family: "Fredericka the Great", cursive;
-    background-color: #eec8e0;
+  font-family: "Fredericka the Great", cursive;
+  background-color: #eec8e0;
 }
 
 .founder {
-    font-family: "Fredericka the Great", cursive;
+  font-family: "Fredericka the Great", cursive;
 }
 
 .text {
-    font-family: "font-family: 'Baskervville', serif;";
+  font-family: "font-family: 'Baskervville', serif;";
 }
 
 .footer {
-    background-color: #f092dd;
-    padding: 15px;
-    display: flex;
+  background-color: #f092dd;
+  padding: 15px;
+  display: flex;
 }
 
 .headers {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .text {
-    text-align: center;
+  text-align: center;
+}
+.header {
+  grid-area: header;
+  display: flex;
+  background-color: #f092dd;
+  font-family: "Mr Bedfort", cursive;
+  font-size: 2.5rem;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.oval {
+  width: 40%;
+  max-width: 80%;
+  background: #ffaff0;
+  border-radius: 50%;
+  border: solid #a8c7bb 5px;
 }
 
 @media screen and (min-width: 768px) {
-    .row {
-        background-color: #eec8e0;
-    }
-    .AboutUs {
-        display: flex;
-        width: 100%;
-        height: 100%;
-        margin: 5px;
-    }
-    .barbie {
-        padding: 5px;
-    }
-    .Employees {
-        padding: 2px;
-    }
+  .row {
+    background-color: #eec8e0;
+  }
+  .AboutUs {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin: 5px;
+  }
+  .barbie {
+    padding: 5px;
+  }
+  .Employees {
+    padding: 2px;
+  }
 }
