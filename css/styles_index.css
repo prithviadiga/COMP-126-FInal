@@ -29,15 +29,6 @@
     justify-content: center;
 }
 
-.img-one {
-    background-image: url("../images/M_aboutus.webp");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 300px;
-    width: 80%;
-}
-
 .column {
     display: flex;
     flex-direction: column;
@@ -86,6 +77,39 @@
 .picture {
     width: 80%;
     margin: 0 auto;
+}
+
+.img-one {
+    background-image: url("../images/M_aboutus.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 25rem;
+    width: 80%;
+    border: solid black 1px;
+    border-radius: 20%;
+}
+
+.img-two {
+    background-image: url("../images/M_sweets.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 25rem;
+    width: 80%;
+    border: solid black 1px;
+    border-radius: 20%;
+}
+
+.img-three {
+    background-image: url("../images/M_cafe.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 25rem;
+    width: 80%;
+    border: solid black 1px;
+    border-radius: 20%;
 }
 
 .form {
