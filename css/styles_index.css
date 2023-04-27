@@ -93,6 +93,11 @@
 .picture {
     width: 80%;
     margin: 0 auto;
+    padding-bottom: 25px;
+}
+
+.biggerHeadings {
+    font-size: 3rem;
 }
 
 .img-one {
