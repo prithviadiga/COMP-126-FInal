@@ -3,6 +3,14 @@
     background-color: #eec8e0;
 }
 
+.title {
+    background-color: #ffaff0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Mr Bedfort', cursive;
+    padding: 15px;
+}
+
 .imagestyle {
     height: 30%;
     border-radius: 10%;
