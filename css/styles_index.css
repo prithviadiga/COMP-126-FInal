@@ -25,7 +25,17 @@
 }
 
 .center {
+    display: flex;
     justify-content: center;
+}
+
+.img-one {
+    background-image: url("../images/M_aboutus.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 80%;
 }
 
 .column {
@@ -33,10 +43,10 @@
     flex-direction: column;
 }
 
-.container {
+.container-nb {
     display: grid;
-    grid-template-rows: 8.5em 5em 0.5fr 5em 5em;
-    grid-template-areas: "header" "nav" "contentArea" "form" "footer";
+    grid-template-rows: auto;
+    grid-template-areas: "header" "nav" "contentArea" "footer";
 }
 
 .header {
@@ -73,8 +83,12 @@
     padding: 15px;
 }
 
+.picture {
+    width: 80%;
+    margin: 0 auto;
+}
+
 .form {
-    grid-area: form;
     display: flex;
     background-color: #F092DD;
     border-color: #392F5A;
@@ -90,6 +104,4 @@
     grid-area: footer;
     display: flex;
     background-color: #F092DD;
-    position: sticky;
-    bottom: 0;
 }
