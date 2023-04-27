@@ -60,6 +60,7 @@
 .contentArea {
     grid-area: contentArea;
     display: flex;
+    flex-direction: column;
     font-family: 'Fredericka the Great', cursive;
     padding: 15px;
 }
