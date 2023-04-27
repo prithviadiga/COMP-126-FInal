@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Baskervville&family=Fredericka+the+Great&display=swap");
+
+.title {
+  background-color: #ffb0f0;
+  display: flex;
+  justify-content: center;
+}
+
+.aboutus {
+  background-color: #eec8e0;
+}
+
+.Employees {
+  font-family: "Fredericka the Great", cursive;
+}
+
+.Mission-Statement {
+  font-family: "Fredericka the Great", cursive;
+  background-color: #eec8e0;
+}
+
+.founder {
+  font-family: "Fredericka the Great", cursive;
+}
+
+.text {
+  font-family: "font-family: 'Baskervville', serif;";
+}
+
+.footer {
+  background-color: #f093dd;
+  padding: 15px;
+  display: flex;
+}
+
+.headers {
+  display: flex;
+  justify-content: center;
+}
+
+.text {
+  text-align: center;
+}
