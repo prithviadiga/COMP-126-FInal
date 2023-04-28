@@ -1,6 +1,8 @@
 * {
     color: #392F5A;
     background-color: #eec8e0;
+    margin: 0;
+    padding: 0;
 }
 
 .title {
@@ -27,6 +29,11 @@
 .center {
     display: flex;
     justify-content: center;
+}
+
+.centerColumn {
+    display: flex;
+    align-items: center;
 }
 
 .column {
@@ -98,6 +105,7 @@
 
 .biggerHeadings {
     font-size: 3rem;
+    text-decoration: #F092DD wavy;
 }
 
 .img-one {
@@ -133,13 +141,36 @@
 .form {
     display: flex;
     background-color: #F092DD;
+    width: 40%;
+    height: auto;
+    align-self: center;
     border-color: #392F5A;
-    border-radius: 10%;
+    border-radius: 20%;
     padding: 15px;
+    margin: 35px
 }
 
 .formBox {
     background-color: #eec8e0;
+}
+
+form {
+    background-color: #F092DD;
+    width: 50%
+}
+
+input {
+    padding: 0.5rem;
+    margin: 10px;
+    width: 85%;
+}
+
+#submit {
+    width: 75%;
+    margin-left: 12.5%;
+    height: 25%;
+    margin-bottom: 15%;
+    border-radius: 25%;
 }
 
 .footer {
@@ -148,4 +179,5 @@
     background-color: #F092DD;
     justify-content: center;
     align-items: center;
+    height: 350%;
 }
