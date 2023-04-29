@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Baskervville&family=Fredericka+the+Great&display=swap");
+* {
+  color: #392f5a;
+  background-color: #eec8e0;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  background-color: #ffaff0;
+  display: flex;
+  justify-content: center;
+  font-family: "Mr Bedfort", cursive;
+  padding: 15px;
+}
+
+.container-nb {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-areas: "header" "nav" "contentArea" "footer";
+}
+
+.imagestyle {
+  width: 80%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10%;
+  display: block;
+  margin: auto;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.centerColumn {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-nb {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-areas: "header" "nav" "contentArea" "footer";
+}
+
+.header {
+  grid-area: header;
+  display: flex;
+  background-color: #f092dd;
+  font-family: "Mr Bedfort", cursive;
+  font-size: 2.5rem;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.oval {
+  width: 40%;
+  max-width: 80%;
+  background: #ffaff0;
+  border-radius: 50%;
+  border: solid #a8c7bb 5px;
+}
+
+.nav-nb {
+  grid-area: nav;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffaff0;
+  font-family: "Libre Baskerville", serif;
+  height: 75px;
+  border: solid #a8c7bb 2px;
+}
+
+.nav-nb a {
+  background-color: #f092dd;
+  font-size: 1.5em;
+  text-align: center;
+  padding: 0.75em;
+  border-radius: 5px;
+  width: 4em;
+  height: 1em;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.contentArea {
+  grid-area: contentArea;
+  display: flex;
+  flex-direction: column;
+  font-family: "Fredericka the Great", cursive;
+  padding: 15px;
+}
+
+.grid-container {
+  background-color: #ffaff0;
+}
+
+.description-container {
+  background-color: #ffaff0;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.description-text {
+  background-color: #ffaff0;
+  text-align: left;
+}
+
+.quantity-text {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quantity-number {
+  background-color: #ffaff0;
+  border-radius: 20px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.quantity-label {
+  margin: 0;
+}
+
+.footer {
+  grid-area: footer;
+  display: flex;
+  background-color: #f092dd;
+  justify-content: center;
+  align-items: center;
+  height: 350%;
+}
