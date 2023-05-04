@@ -169,6 +169,7 @@
   border-radius: 20%;
 }
 
+/* Start of Cafe/Sweets */
 .description-quantity {
   display: flex;
   justify-content: space-between;
@@ -297,6 +298,7 @@
   border-radius: 20%;
   margin-bottom: 10px
 }
+/* End of Cafe/Sweets */
 
 .form {
   display: flex;
