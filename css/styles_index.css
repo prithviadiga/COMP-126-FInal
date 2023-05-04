@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+.hamBurger {
+    display: none;
+}
+
 .title {
     background-color: #ffaff0;
     display: flex;
@@ -44,7 +48,7 @@
 .container-nb {
     display: grid;
     grid-template-rows: auto;
-    grid-template-areas: "header" "nav" "contentArea" "footer";
+    grid-template-areas: "header" "title" "nav" "contentArea" "footer";
 }
 
 .header {
@@ -59,11 +63,28 @@
 }
 
 .oval {
-    width: 40%;
-    max-width: 80%;
+    width: 100%;
     background: #FFAFF0;
     border-radius: 50%;
     border: solid #a8c7bb 5px;
+}
+
+.title-nb {
+    grid-area: title;
+    display: grid;
+    grid-template-areas: "hamburger title dummy";
+    grid-template-columns: 6em 1fr 6em;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFAFF0;
+    font-family: 'Fredericka the Great', cursive;
+    height: 75px;
+    border: solid #a8c7bb 2px;
+}
+
+.pageTitle {
+    grid-area: title;
+    text-align: center;
 }
 
 .nav-nb {
@@ -75,6 +96,7 @@
     font-family: 'Libre Baskerville', serif;
     height: 75px;
     border: solid #a8c7bb 2px;
+    border-top: none;
 }
 
 .nav-nb a {
@@ -95,6 +117,7 @@
     flex-direction: column;
     font-family: 'Fredericka the Great', cursive;
     padding: 15px;
+    padding-top: 50px;
 }
 
 .picture {
@@ -106,6 +129,14 @@
 .biggerHeadings {
     font-size: 3rem;
     text-decoration: #F092DD wavy;
+}
+
+.textMarginBottom {
+    margin-bottom: 25px;
+}
+
+.SprinklesAndSweetsWrap {
+    white-space: nowrap;
 }
 
 .img-one {
@@ -180,4 +211,51 @@ input {
     justify-content: center;
     align-items: center;
     height: 350%;
+}
+
+.textBGnone {
+    background-color: transparent;
+}
+
+@media screen and (max-width: 690px) {
+    .nav-nb {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        border-bottom: none;
+        background: transparent;
+        height: auto;
+        max-height: 0px;
+        overflow: clip;
+        transition: max-height ease-in-out .5s;
+    }
+    .navItem {
+        margin-top: 5px;
+    }
+    .nav-nb.nav-expand {
+        max-height: 500px;
+    }
+    .hamBurger {
+        display: inline-block;
+        background-color: transparent;
+        grid-area: hamburger;
+        border-radius: 20%;
+        padding: 5px;
+        width: 2.5em;
+        margin-left: 25px;
+        box-sizing: border-box;
+        cursor: pointer;
+    }
+    .hamBurger:hover {
+        background-color: #F092DD;
+    }
+    .hamBurger * {
+        background-color: transparent;
+    }
+    .picture {
+        height: 20em;
+    }
+    .form {
+        width: 90%;
+    }
 }
