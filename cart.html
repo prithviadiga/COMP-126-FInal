@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cart</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/cart_style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,6 +21,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <div class="wrapper">
         <header>
@@ -31,15 +33,14 @@
     </div>
     <nav>
         <button class="nav__menubtn"><img src="menu.png"></button>
-        <div class="nav__links"> 
+        <div class="nav__links">
             <a href="">about us</a>
             <a href="">sweets</a>
             <a href="">cafe</a>
             <a href="">cart</a>
             <a href="">mailing list</a>
             <a href="" class="cart-link">
-                <img class='cart-img' src="shopping-cart.png">
-                2
+                <img class='cart-img' src="shopping-cart.png"> 2
             </a>
         </div>
         <h1>Cart</h1>
@@ -52,7 +53,7 @@
                     <div class="myitem__one">
                         <img src="cupcakeimg.png">
                         <div class="myitem__bottom">
-                            <h1>Cupcakes</h1>  
+                            <h1>Cupcakes</h1>
                         </div>
                     </div>
                     <div class="myitem__two">
@@ -62,7 +63,7 @@
                             </p>
                         </div>
                     </div>
-                    
+
                 </div>
                 <div class="myitem__detail">
                     <span class="quantity">
@@ -70,7 +71,7 @@
                     </span>
                     <h2>Quantity</h2>
                     <h3>$333.00</h3>
-                </div>  
+                </div>
             </div>
         </div>
 
@@ -80,7 +81,7 @@
                     <div class="myitem__one">
                         <img src="latteimg.png">
                         <div class="myitem__bottom">
-                            <h1>Latte</h1>  
+                            <h1>Latte</h1>
                         </div>
                     </div>
                     <div class="myitem__two">
@@ -90,16 +91,16 @@
                             </p>
                         </div>
                     </div>
-                    
+
                 </div>
-                
+
                 <div class="myitem__detail">
                     <span class="quantity">
                         1
                     </span>
                     <h2>Quantity</h2>
                     <h3>$4.50</h3>
-                </div>  
+                </div>
             </div>
         </div>
         <div class="myitem__total">
@@ -133,7 +134,7 @@
                     <input type="text" placeholder="Billing Address:">
                 </div>
             </div>
-           
+
             <div class="checkout__tips">
                 <input type="text" placeholder="Tips:">
             </div>
@@ -146,28 +147,29 @@
             <img src="back.png" alt="back-button">
         </footer>
     </div>
-    
-
-<script>
-    nav__menubtn = document.querySelector('.nav__menubtn')
-    nav__links = document.querySelector('.nav__links')
-
-    nav__menubtn.addEventListener('click', () => {
-        if (nav__links.style.left !== '0px'){
-            nav__links.style.left = '0px';
-        } else {
-            nav__links.style.left = '-40%';
-        }
-    })
 
 
-    checkout__btn = document.querySelector('.checkout__btn')
-    checkout_div = document.querySelector('.checkout')
+    <script>
+        nav__menubtn = document.querySelector('.nav__menubtn')
+        nav__links = document.querySelector('.nav__links')
 
-    
-    checkout__btn.addEventListener('click', () => {
-        checkout_div.style.display = 'block';
-    })
-</script>
+        nav__menubtn.addEventListener('click', () => {
+            if (nav__links.style.left !== '0px') {
+                nav__links.style.left = '0px';
+            } else {
+                nav__links.style.left = '-40%';
+            }
+        })
+
+
+        checkout__btn = document.querySelector('.checkout__btn')
+        checkout_div = document.querySelector('.checkout')
+
+
+        checkout__btn.addEventListener('click', () => {
+            checkout_div.style.display = 'block';
+        })
+    </script>
 </body>
+
 </html>
