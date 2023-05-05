@@ -132,6 +132,7 @@
 }
 
 .textMarginBottom {
+  font-family: 'Baskerville';
   margin-bottom: 25px;
 }
 
@@ -396,6 +397,18 @@ input {
 }
 
 .footer {
+  grid-area: footer;
+  display: flex;
+  font-family: "Libre Baskerville", serif;
+  grid-template-columns: 6em 1fr 6em;
+  justify-content: center;
+  align-items: center;
+  background-color: #f092dd;
+  padding: 10px 20px;
+}
+
+/* Footer with back button */
+.footerBackButton {
   grid-area: footer;
   display: grid;
   font-family: "Libre Baskerville", serif;
