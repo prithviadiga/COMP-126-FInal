@@ -1,112 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, 
-      initial-scale-1, shrink-to-fit=no" />
+    <meta
+      name="viewport"
+      content="width=device-width, 
+      initial-scale-1, shrink-to-fit=no"
+    />
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" /> -->
     <link rel="stylesheet" href="css/styles.css" />
     <title>Sprinkles and Sweets</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Mr+Bedfort&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mr+Bedfort&display=swap"
+      rel="stylesheet"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap"
+      rel="stylesheet"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet" />
-</head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
     <div class="container-nb">
-        <!--Header-->
-        <div class="header">
-            <div class="center oval header">
-                <h3 class="textBGnone SprinklesAndSweetsWrap">
-                    Sprinkles and Sweets
-                </h3>
-            </div>
+      <!--Header-->
+      <div class="header">
+        <div class="center oval header">
+          <h3 class="textBGnone SprinklesAndSweetsWrap">
+            Sprinkles and Sweets
+          </h3>
         </div>
+      </div>
 
-        <!--Title Bar-->
-        <div class="title-nb">
-            <div class="hamBurger" onclick="navToggle()">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+      <!--Title Bar-->
+      <div class="title-nb">
+        <div class="hamBurger" onclick="navToggle()">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
             <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
             <path
               d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
             />
           </svg>
-            </div>
-            <h1 class="lightpinkBG biggerHeadings pageTitle">Home</h1>
-            <div class="cartIcon cart">
-                <a href="cart.html">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+        </div>
+        <h1 class="lightpinkBG biggerHeadings pageTitle">Home</h1>
+        <div class="cartIcon cart">
+          <a href="cart.html">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
               <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
               <path
                 d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"
               />
             </svg>
-                </a>
-            </div>
+          </a>
+        </div>
+      </div>
+
+      <!--Nav Menu-->
+      <div class="nav-nb" id="navbar">
+        <!--There's no navitem class what to do-->
+        <a href="about.html" class="navItem">About</a>
+        <a href="sweets.html" class="navItem">Sweets</a>
+        <a href="cafe.html" class="navItem">Cafe</a>
+        <a href="cart.html" class="navItem">Cart</a>
+      </div>
+
+      <!--MAIN CONTENT AREA-->
+      <div class="contentArea center">
+        <div class="column picture">
+          <h1 class="center biggerHeadings textMarginBottom">About us</h1>
+          <a href="about.html" class="img-one" alt="About Us"> </a>
         </div>
 
-        <!--Nav Menu-->
-        <div class="nav-nb" id="navbar">
-            <!--There's no navitem class what to do-->
-            <a href="about.html" class="navItem">About</a>
-            <a href="sweets.html" class="navItem">Sweets</a>
-            <a href="cafe.html" class="navItem">Cafe</a>
-            <a href="cart.html" class="navItem">Cart</a>
+        <div class="column picture">
+          <h1 class="center biggerHeadings textMarginBottom">Sweets</h1>
+          <a href="sweets.html" class="img-two" alt="Sweets"> </a>
         </div>
 
-        <!--MAIN CONTENT AREA-->
-        <div class="contentArea center">
-            <div class="column picture">
-                <h1 class="center biggerHeadings textMarginBottom">About us</h1>
-                <a href="about.html" class="img-one" alt="About Us"> </a>
-            </div>
-
-            <div class="column picture">
-                <h1 class="center biggerHeadings textMarginBottom">Sweets</h1>
-                <a href="sweets.html" class="img-two" alt="Sweets"> </a>
-            </div>
-
-            <div class="column picture">
-                <h1 class="center biggerHeadings textMarginBottom">Cafe</h1>
-                <a href="cafe.html" class="img-three" alt="Cafe"> </a>
-            </div>
-
-            <!--Mailing List Form-->
-            <div class="form center column centerColumn">
-                <h1 class="center darkpinkBG">Mailing List</h1>
-                <form>
-                    <input type="text" id="fname" name="fname" placeholder="first name" /><br />
-                    <input type="text" id="lname" name="lname" placeholder="last name" /><br />
-                    <input type="email" id="email" name="email" placeholder="email" /><br /><br />
-                    <input type="submit" value="Submit" id="submit" />
-                </form>
-            </div>
+        <div class="column picture">
+          <h1 class="center biggerHeadings textMarginBottom">Cafe</h1>
+          <a href="cafe.html" class="img-three" alt="Cafe"> </a>
         </div>
 
-        <!--Footer-->
-        <div class="footer">
-          A Comp 126 Production
+        <!--Mailing List Form-->
+        <div class="form center column centerColumn">
+          <h1 class="center darkpinkBG">Mailing List</h1>
+          <form>
+            <input
+              type="text"
+              id="fname"
+              name="fname"
+              placeholder="first name"
+            /><br />
+            <input
+              type="text"
+              id="lname"
+              name="lname"
+              placeholder="last name"
+            /><br />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="email"
+            /><br /><br />
+            <input type="submit" value="Submit" id="submit" />
+          </form>
         </div>
+      </div>
+
+      <!--Footer-->
+      <div class="footer">A Comp 126 Production</div>
     </div>
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
-</body>
+  </body>
 
-<script>
+  <script>
     function navToggle() {
-        if (document.getElementById("navbar").classList.contains("nav-expand")) {
-            document.getElementById("navbar").classList.remove("nav-expand");
-        } else {
-            document.getElementById("navbar").classList.add("nav-expand");
-        }
+      if (document.getElementById("navbar").classList.contains("nav-expand")) {
+        document.getElementById("navbar").classList.remove("nav-expand");
+      } else {
+        document.getElementById("navbar").classList.add("nav-expand");
+      }
     }
-</script>
-
+  </script>
 </html>
