@@ -132,6 +132,10 @@
 }
 
 .textMarginBottom {
+  margin-bottom: 25px;
+}
+
+.bodyTextMarginBottom {
   font-family: "Baskerville", serif;
   margin-bottom: 25px;
 }
@@ -209,11 +213,9 @@
   margin: 0 auto;
   padding-bottom: 25px;
 }
-
 /* End of About */
 
 /* Start of Cafe/Sweets */
-
 .description-quantity {
   display: flex;
   justify-content: space-between;
@@ -342,7 +344,6 @@
   border-radius: 20%;
   margin-bottom: 10px;
 }
-
 /* End of Cafe/Sweets */
 
 .cartIcon {
