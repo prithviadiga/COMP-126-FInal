@@ -62,8 +62,6 @@
 }
 
 .oval {
-    width: 40%;
-    max-width: 80%;
     width: 100%;
     background: #FFAFF0;
     border-radius: 50%;
@@ -328,7 +326,7 @@
 .form {
     display: flex;
     background-color: #f092dd;
-    width: 40%;
+    width: 75%;
     height: auto;
     align-self: center;
     border-color: #392f5a;
@@ -421,6 +419,6 @@ input {
         height: 20em;
     }
     .form {
-        width: 90%;
+        width: 75%;
     }
 }
