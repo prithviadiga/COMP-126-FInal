@@ -1,6 +1,5 @@
 * {
     color: #392f5a;
-    background-color: #eec8e0;
     margin: 0;
     padding: 0;
 }
@@ -52,23 +51,23 @@
 }
 
 .header {
-  grid-area: header;
-  display: flex;
-  background-color: #F092DD;
-  font-family: 'Mr Bedfort', cursive;
-  font-size: 2.5rem;
-  justify-content: center;
-  align-items: center;
-  padding: 15px;
+    grid-area: header;
+    display: flex;
+    background-color: #F092DD;
+    font-family: 'Mr Bedfort', cursive;
+    font-size: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
 }
 
 .oval {
-  width: 40%;
-  max-width: 80%;
-  width: 100%;
-  background: #FFAFF0;
-  border-radius: 50%;
-  border: solid #a8c7bb 5px;
+    width: 40%;
+    max-width: 80%;
+    width: 100%;
+    background: #FFAFF0;
+    border-radius: 50%;
+    border: solid #a8c7bb 5px;
 }
 
 .title-nb {
@@ -117,6 +116,7 @@
     grid-area: contentArea;
     display: flex;
     flex-direction: column;
+    background-color: #eec8e0;
     font-family: "Fredericka the Great", cursive;
     padding: 15px;
     padding-top: 50px;
@@ -312,7 +312,6 @@
 
 .cartIcon {
     display: inline-block;
-    background-color: #ffaff0;
     grid-area: cart;
     border-radius: 20%;
     padding: 5px;
@@ -348,6 +347,7 @@ form {
 }
 
 input {
+    background-color: #eec8e0;
     padding: 0.5rem;
     margin: 10px;
     width: 85%;
