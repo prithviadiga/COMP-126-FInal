@@ -1,126 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, 
-      initial-scale-1, shrink-to-fit=no" />
+    <meta
+      name="viewport"
+      content="width=device-width, 
+      initial-scale-1, shrink-to-fit=no"
+    />
     <link rel="stylesheet" href="css/styles.css" />
     <title>Cafe</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Mr+Bedfort&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mr+Bedfort&display=swap"
+      rel="stylesheet"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
-</head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
     <div class="container-nb">
-        <!--Header-->
-        <div class="header">
-            <div class="center oval header">
-                <h3 class="lightpinkBG">Sprinkles and Sweets</h3>
-            </div>
+      <!--Header-->
+      <div class="header">
+        <div class="center oval header">
+          <h3 class="textBGnone SprinklesAndSweetsWrap">
+            Sprinkles and Sweets
+          </h3>
         </div>
+      </div>
 
-        <!--Title Bar-->
-        <div class="title-nb">
-            <div class="hamBurger" onclick="navToggle()">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+      <!--Title Bar-->
+      <div class="title-nb">
+        <div class="hamBurger" onclick="navToggle()">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
             <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
             <path
               d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
             />
           </svg>
+        </div>
+        <h1 class="lightpinkBG biggerHeadings pageTitle">Cafe</h1>
+
+        <div class="cartIcon cart">
+          <a href="cart.html">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+              <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+              <path
+                d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!--Nav Menu-->
+      <div class="nav-nb">
+        <a href="index.html" class="navItem">Home</a>
+        <a href="about.html" class="navItem">About</a>
+        <a href="sweets.html" class="navItem">Sweets</a>
+        <a href="cart.html" class="navItem">Cart</a>
+      </div>
+
+      <!--MAIN CONTENT AREA-->
+      <div class="contentArea center">
+        <!--Cafe Items-->
+
+        <div class="column picture">
+          <a ref="#" class="img-cafe-1"></a>
+          <div class="description-quantity">
+            <div class="img-description">
+              A latte to keep you up in the morning with beautiful art by Ken!
             </div>
-            <h1 class="lightpinkBG biggerHeadings pageTitle">Cafe</h1>
+            <div class="quantity-wrapper">
+              <div class="quantity-box">1</div>
+              <div class="img-quantity">Quantity</div>
+            </div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              width="20px"
+              height="20px"
+            >
+              <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+              <path
+                d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"
+              />
+            </svg>
+          </div>
         </div>
 
-        <!--Nav Menu-->
-        <div class="nav-nb">
-            <a href="index.html" class="navItem">Home</a>
-            <a href="about.html" class="navItem">About</a>
-            <a href="sweets.html" class="navItem">Sweets</a>
-            <a href="cart.html" class="navItem">Cart</a>
+        <div class="column picture">
+          <a ref="#" class="img-cafe-2"></a>
+          <div class="description-quantity">
+            <div class="img-description">
+              A matcha latte for those who prefer lighter flavors than coffee
+            </div>
+            <div class="quantity-wrapper">
+              <div class="quantity-box">5</div>
+              <div class="img-quantity">Quantity</div>
+            </div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              width="20px"
+              height="20px"
+            >
+              <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+              <path
+                d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"
+              />
+            </svg>
+          </div>
         </div>
 
-        <!--MAIN CONTENT AREA-->
-        <div class="contentArea center">
-            <!--Cafe Items-->
-
-            <div class="column picture">
-                <a ref="#" class="img-cafe-1"></a>
-                <div class="description-quantity">
-                    <div class="img-description">
-                        A latte to keep you up in the morning with beautiful art by Ken!
-                    </div>
-                    <div class="quantity-wrapper">
-                        <div class="quantity-box">1</div>
-                        <div class="img-quantity">Quantity</div>
-                    </div>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20px" height="20px"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"/></svg>
-                </div>
+        <div class="column picture">
+          <a ref="#" class="img-cafe-3"></a>
+          <div class="description-quantity">
+            <div class="img-description">
+              A reliable cup of hot chocolate that won't leave you disappointed
             </div>
-
-            <div class="column picture">
-                <a ref="#" class="img-cafe-2"></a>
-                <div class="description-quantity">
-                    <div class="img-description">
-                        A matcha latte for those who prefer lighter flavors than coffee
-                    </div>
-                    <div class="quantity-wrapper">
-                        <div class="quantity-box">5</div>
-                        <div class="img-quantity">Quantity</div>
-                    </div>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20px" height="20px"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"/></svg>
-                </div>
+            <div class="quantity-wrapper">
+              <div class="quantity-box">9</div>
+              <div class="img-quantity">Quantity</div>
             </div>
-
-            <div class="column picture">
-                <a ref="#" class="img-cafe-3"></a>
-                <div class="description-quantity">
-                    <div class="img-description">
-                        A reliable cup of hot chocolate that won't leave you disappointed
-                    </div>
-                    <div class="quantity-wrapper">
-                        <div class="quantity-box">9</div>
-                        <div class="img-quantity">Quantity</div>
-                    </div>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20px" height="20px"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"/></svg>
-                </div>
-            </div>
-
-            <div class="column picture">
-                <a ref="#" class="img-cafe-4"></a>
-                <div class="description-quantity">
-                    <div class="img-description">
-                        A recognizable summer refresher that we promise is copyright free
-                    </div>
-                    <div class="quantity-wrapper">
-                        <div class="quantity-box">6</div>
-                        <div class="img-quantity">Quantity</div>
-                    </div>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20px" height="20px"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"/></svg>
-                </div>
-            </div>
-
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              width="20px"
+              height="20px"
+            >
+              <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+              <path
+                d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"
+              />
+            </svg>
+          </div>
         </div>
-        <div class="footer">A Comp 126 Production</div>
+
+        <div class="column picture">
+          <a ref="#" class="img-cafe-4"></a>
+          <div class="description-quantity">
+            <div class="img-description">
+              A recognizable summer refresher that we promise is copyright free
+            </div>
+            <div class="quantity-wrapper">
+              <div class="quantity-box">6</div>
+              <div class="img-quantity">Quantity</div>
+            </div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              width="20px"
+              height="20px"
+            >
+              <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+              <path
+                d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <a href="index.html" class="back-button">
+          <svg
+            class="darkpinkBG"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 512"
+            width="40px"
+            height="40px"
+          >
+            <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+            <path
+              d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"
+            />
+          </svg>
+        </a>
+        <div class="footertext">A Comp 126 Production</div>
+      </div>
     </div>
-</body>
+  </body>
 
-<script>
+  <script>
     function navToggle() {
-        if (document.getElementById("navbar").classList.contains("nav-expand")) {
-            document.getElementById("navbar").classList.remove("nav-expand");
-        } else {
-            document.getElementById("navbar").classList.add("nav-expand");
-        }
+      if (document.getElementById("navbar").classList.contains("nav-expand")) {
+        document.getElementById("navbar").classList.remove("nav-expand");
+      } else {
+        document.getElementById("navbar").classList.add("nav-expand");
+      }
     }
-</script>
-
+  </script>
 </html>
