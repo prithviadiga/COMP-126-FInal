@@ -136,7 +136,7 @@
 }
 
 .slightlyLargerTextMarginBottom {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .SprinklesAndSweetsWrap {
@@ -208,14 +208,7 @@
   margin: 0 auto;
   padding-bottom: 25px;
 }
-.footer1 {
-  grid-area: footer;
-  display: flex;
-  background-color: #f092dd;
-  justify-content: center;
-  align-items: center;
-  height: 350%;
-}
+
 /* End of About */
 
 /* Start of Cafe/Sweets */
