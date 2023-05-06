@@ -69,11 +69,8 @@
     text-decoration: none;
 }
 
-.oval :hover {
-    background: #f092dd;
-    border: solid #82c7ac 5px;
-    transition-duration: 2s;
-    transition-delay: 0.5s;
+.oval:hover {
+    background: #f9bdee;
 }
 
 .title-nb {
