@@ -446,6 +446,7 @@ input {
     margin-top: 5px;
   }
   .nav-nb.nav-expand {
+    background-color: #eec8e0;
     max-height: 500px;
   }
   .hamBurger {
