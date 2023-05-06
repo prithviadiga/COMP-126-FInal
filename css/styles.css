@@ -506,7 +506,7 @@ input {
 .checkout__head {
   text-align: center;
   margin: 13px 0 18px 0;
-  font-family: "Baskervville";
+  font-family: "Baskerville", serif;
   font-weight: 400;
   font-size: 16px;
   color: #000000;
@@ -514,6 +514,9 @@ input {
 
 .checkout__field {
   background: #eec8e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .br5 {
@@ -528,7 +531,7 @@ input {
   flex: 1;
   height: 26.78px;
   padding-left: 14px;
-  font-family: "Baskervville";
+  font-family: "Baskerville", serif;
   font-weight: 400;
   font-size: 12px;
   color: #000000;
@@ -671,7 +674,7 @@ input:focus-visible {
   border: none;
   border-radius: 5px;
   background-color: #F092DD;
-  font-family: 'Baskervville';
+  font-family: "Baskerville", serif;
   font-weight: 600;
 }
 
