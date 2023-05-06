@@ -376,6 +376,9 @@
 .formBox {
   background-color: #eec8e0;
 }
+body {
+  background: #eec8e0;
+}
 
 form {
   background-color: #f092dd;
@@ -396,6 +399,187 @@ input {
   margin-bottom: 15%;
   border-radius: 25%;
 }
+
+/* Cart page start */
+.items {
+  background: #eec8e0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.myitem {
+  padding: 28px 21px 0 44px;
+}
+
+.myitem__top {
+  display: flex;
+}
+
+.myitem__detail {
+  font-family: "Baskervville", serif;
+  padding-left: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 0 15px;
+}
+
+.myitem__detail span {
+  width: 35px;
+  height: 35px;
+  background: #f092dd;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: 20px;
+  color: #392f5a;
+}
+
+.myitem__detail h2 {
+  font-weight: 400;
+  font-size: 12px;
+  color: #392f5a;
+}
+
+.myitem__detail h3 {
+  font-weight: 400;
+  font-size: 16px;
+  color: #392f5a;
+}
+
+.myitem__bottom h1 {
+  font-family: "Baskervville";
+  font-weight: 400;
+  font-size: 24px;
+  color: #392f5a;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.myitem__total {
+  background: #f092dd;
+  border-radius: 10px;
+  width: 158px;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.myitem__total p {
+  font-family: "Baskervville";
+  font-weight: 400;
+  font-size: 24px;
+  padding: 5px 0;
+  color: #392f5a;
+}
+
+.myitem__img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.myitem__img img {
+  object-fit: contain;
+  width: 300px;
+}
+
+.checkout {
+  background: #f092dd;
+  border: 1px solid #392f5a;
+  border-radius: 10px;
+  margin: 26px 24px;
+  padding: 0 19px;
+  align-items: center;
+  max-width: 750px;
+  display: none;
+}
+
+.checkout__head {
+  text-align: center;
+  margin: 13px 0 18px 0;
+  font-family: "Baskervville";
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+}
+
+.checkout__field {
+  background: #eec8e0;
+}
+
+.br5 {
+  border-radius: 5px;
+}
+
+.checkout__field {
+  display: flex;
+}
+
+.checkout__field > input {
+  flex: 1;
+  height: 26.78px;
+  padding-left: 14px;
+  font-family: "Baskervville";
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+  background: none;
+  border: none;
+}
+
+input:focus-visible {
+  outline: none;
+}
+
+.field__name {
+  margin-bottom: 7px;
+}
+
+.checkout__tips {
+  width: 84px;
+  margin-top: 8px;
+}
+
+.checkout__tips > input {
+  width: 100%;
+  border: none;
+  background: #eec8e0;
+  border-radius: 5px;
+  padding: 5px 4px;
+}
+
+.checkout__mid {
+  overflow: hidden;
+}
+
+.checkout__submit {
+  display: block;
+  margin: 0 auto;
+  width: 154px;
+  height: 49px;
+  border: none;
+  background: #ffaff0;
+  border-radius: 5px;
+  font-family: "Baskervville";
+  font-weight: 400;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 24px;
+  cursor: pointer;
+}
+/* Cart end */
 
 .footer {
   grid-area: footer;
@@ -472,4 +656,22 @@ input {
   .form {
     width: 75%;
   }
+}
+.checkout__show {
+  text-align: center;
+  padding: 50px 0 30px 0;
+}
+
+.checkout__btn {
+  padding: 10px 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #F092DD;
+  font-family: 'Baskervville';
+  font-weight: 600;
+}
+
+.checkout__btn:hover {
+  background-color: #cc5eb6;
+  cursor: pointer;
 }
