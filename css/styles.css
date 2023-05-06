@@ -1,684 +1,701 @@
 * {
-  color: #392f5a;
-  margin: 0;
-  padding: 0;
+    color: #392f5a;
+    margin: 0;
+    padding: 0;
 }
 
 .hamBurger {
-  display: none;
+    display: none;
 }
 
 .title {
-  background-color: #ffaff0;
-  display: flex;
-  justify-content: center;
-  font-family: "Mr Bedfort", cursive;
-  padding: 15px;
+    background-color: #ffaff0;
+    display: flex;
+    justify-content: center;
+    font-family: "Mr Bedfort", cursive;
+    padding: 15px;
 }
 
 .imagestyle {
-  height: 30%;
-  border-radius: 10%;
+    height: 30%;
+    border-radius: 10%;
 }
 
 .lightpinkBG {
-  background-color: #ffaff0;
+    background-color: #ffaff0;
 }
 
 .darkpinkBG {
-  background-color: #f092dd;
+    background-color: #f092dd;
 }
 
 .center {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .centerColumn {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .column {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .container-nb {
-  display: grid;
-  grid-template-rows: auto;
-  grid-template-areas: "header" "title" "nav" "contentArea" "footer";
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-areas: "header" "title" "nav" "contentArea" "footer";
 }
 
 .header {
-  grid-area: header;
-  display: flex;
-  background-color: #f092dd;
-  font-family: "Mr Bedfort", cursive;
-  font-size: 2.5rem;
-  justify-content: center;
-  align-items: center;
-  padding: 15px;
+    grid-area: header;
+    display: flex;
+    background-color: #f092dd;
+    font-family: "Mr Bedfort", cursive;
+    font-size: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
 }
 
 .oval {
-  width: 100%;
-  background: #ffaff0;
-  border-radius: 50%;
-  border: solid #a8c7bb 5px;
+    width: 100%;
+    background: #ffaff0;
+    border-radius: 50%;
+    border: solid #a8c7bb 5px;
 }
 
 .title-nb {
-  grid-area: title;
-  display: grid;
-  grid-template-areas: "hamburger title cart";
-  grid-template-columns: 6em 1fr 6em;
-  justify-content: center;
-  align-items: center;
-  background-color: #ffaff0;
-  font-family: "Fredericka the Great", cursive;
-  height: 75px;
-  border: solid #a8c7bb 2px;
+    grid-area: title;
+    display: grid;
+    grid-template-areas: "hamburger title cart";
+    grid-template-columns: 6em 1fr 6em;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffaff0;
+    font-family: "Fredericka the Great", cursive;
+    height: 75px;
+    border: solid #a8c7bb 2px;
 }
 
 .pageTitle {
-  grid-area: title;
-  text-align: center;
+    grid-area: title;
+    text-align: center;
 }
 
 .nav-nb {
-  grid-area: nav;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #ffaff0;
-  font-family: "Baskerville", serif;
-  height: 75px;
-  border: solid #a8c7bb 2px;
-  border-top: none;
+    grid-area: nav;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffaff0;
+    font-family: "Baskerville", serif;
+    height: 75px;
+    border: solid #a8c7bb 2px;
+    border-top: none;
 }
 
 .nav-nb a {
-  background-color: #f092dd;
-  font-size: 1.5em;
-  text-align: center;
-  padding: 0.75em;
-  border-radius: 5px;
-  width: 4em;
-  height: 1em;
-  margin-left: 5%;
-  margin-right: 5%;
+    background-color: #f092dd;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 0.75em;
+    border-radius: 5px;
+    width: 4em;
+    height: 1em;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .contentArea {
-  grid-area: contentArea;
-  display: flex;
-  flex-direction: column;
-  background-color: #eec8e0;
-  font-family: "Fredericka the Great", cursive;
-  padding: 15px;
-  padding-top: 50px;
+    grid-area: contentArea;
+    display: flex;
+    flex-direction: column;
+    background-color: #eec8e0;
+    font-family: "Fredericka the Great", cursive;
+    padding: 15px;
+    padding-top: 50px;
 }
 
 .picture {
-  width: 80%;
-  margin: 0 auto;
-  padding-bottom: 25px;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 25px;
 }
 
 .biggerHeadings {
-  font-size: 3rem;
-  text-decoration: #f092dd wavy;
+    font-size: 3rem;
+    text-decoration: #f092dd wavy;
 }
 
 .textMarginBottom {
-  margin-bottom: 25px;
+    margin-bottom: 25px;
 }
 
 .bodyTextMarginBottom {
-  font-family: "Baskerville", serif;
-  margin-bottom: 25px;
+    font-family: "Baskerville", serif;
+    margin-bottom: 25px;
 }
 
 .slightlyLargerTextMarginBottom {
-  margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .SprinklesAndSweetsWrap {
-  white-space: nowrap;
+    white-space: nowrap;
 }
 
 .img-one {
-  background-image: url("../images/M_aboutus.webp");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 25rem;
-  border: solid #a8c7bb 1px;
-  border-radius: 20%;
+    background-image: url("../images/M_aboutus.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 25rem;
+    border: solid #a8c7bb 1px;
+    border-radius: 20%;
 }
 
 .img-two {
-  background-image: url("../images/M_sweets.jpeg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 25rem;
-  border: solid #a8c7bb 1px;
-  border-radius: 20%;
+    background-image: url("../images/M_sweets.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 25rem;
+    border: solid #a8c7bb 1px;
+    border-radius: 20%;
 }
 
 .img-three {
-  background-image: url("../images/M_cafe.jpeg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 25rem;
-  border: solid #a8c7bb 1px;
-  border-radius: 20%;
+    background-image: url("../images/M_cafe.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 25rem;
+    border: solid #a8c7bb 1px;
+    border-radius: 20%;
 }
 
 .back-button {
-  background-color: #f092dd;
+    background-color: #f092dd;
 }
 
+
 /* Start of About */
+
 .img-about-1 {
-  background-image: url("../images/A_barbie.webp");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 25rem;
-  border: solid #a8c7bb 1px;
-  border-radius: 20%;
-  margin-bottom: 10px;
+    background-image: url("../images/A_barbie.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 25rem;
+    border: solid #a8c7bb 1px;
+    border-radius: 20%;
+    margin-bottom: 10px;
 }
 
 .img-about-2 {
-  background-image: url("../images/A_Employees.webp");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 25rem;
-  border: solid #a8c7bb 1px;
-  border-radius: 20%;
-  margin-bottom: 10px;
+    background-image: url("../images/A_Employees.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 25rem;
+    border: solid #a8c7bb 1px;
+    border-radius: 20%;
+    margin-bottom: 10px;
 }
+
 .text {
-  text-align: center;
+    text-align: center;
 }
 
 .pictures {
-  width: 80%;
-  margin: 0 auto;
-  padding-bottom: 25px;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 25px;
 }
+
+
 /* End of About */
 
+
 /* Start of Cafe/Sweets */
+
 .description-quantity {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
 
 .img-description {
-  background-color: #ffaff0;
-  font-family: "Baskerville", serif;
-  display: flex;
-  border-radius: 20px;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  width: 70%;
+    background-color: #ffaff0;
+    font-family: "Baskerville", serif;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 70%;
 }
 
 .quantity-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .quantity-box {
-  background-color: #f092dd;
-  font-family: "Baskerville", serif;
-  display: inline-block;
-  width: 25%;
-  text-align: center;
-  padding: 10px;
-  border-radius: 5px;
-  margin-right: 10px;
+    background-color: #f092dd;
+    font-family: "Baskerville", serif;
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
 }
 
 .img-quantity {
-  font-family: "Baskerville", serif;
-  align-items: center;
-  text-align: center;
+    font-family: "Baskerville", serif;
+    align-items: center;
+    text-align: center;
 }
 
 .img-cafe-1 {
-  background-image: url("../images/C_latte.jpeg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 25rem;
-  border: solid #a8c7bb 1px;
-  border-radius: 20%;
-  margin-bottom: 10px;
+    background-image: url("../images/C_latte.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 25rem;
+    border: solid #a8c7bb 1px;
+    border-radius: 20%;
+    margin-bottom: 10px;
 }
 
 .img-cafe-2 {
-  background-image: url("../images/C_Matcha.jpeg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 25rem;
-  border: solid #a8c7bb 1px;
-  border-radius: 20%;
-  margin-bottom: 10px;
+    background-image: url("../images/C_Matcha.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 25rem;
+    border: solid #a8c7bb 1px;
+    border-radius: 20%;
+    margin-bottom: 10px;
 }
 
 .img-cafe-3 {
-  background-image: url("../images/C_hotchocolate.jpeg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 25rem;
-  border: solid #a8c7bb 1px;
-  border-radius: 20%;
-  margin-bottom: 10px;
+    background-image: url("../images/C_hotchocolate.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 25rem;
+    border: solid #a8c7bb 1px;
+    border-radius: 20%;
+    margin-bottom: 10px;
 }
 
 .img-cafe-4 {
-  background-image: url("../images/C_pinkdrink.jpeg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 25rem;
-  border: solid #a8c7bb 1px;
-  border-radius: 20%;
-  margin-bottom: 10px;
+    background-image: url("../images/C_pinkdrink.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 25rem;
+    border: solid #a8c7bb 1px;
+    border-radius: 20%;
+    margin-bottom: 10px;
 }
 
 .img-sweets-1 {
-  background-image: url("../images/S_cupcake.jpeg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 25rem;
-  border: solid #a8c7bb 1px;
-  border-radius: 20%;
-  margin-bottom: 10px;
+    background-image: url("../images/S_cupcake.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 25rem;
+    border: solid #a8c7bb 1px;
+    border-radius: 20%;
+    margin-bottom: 10px;
 }
 
 .img-sweets-2 {
-  background-image: url("../images/S_macaron.jpeg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 25rem;
-  border: solid #a8c7bb 1px;
-  border-radius: 20%;
-  margin-bottom: 10px;
+    background-image: url("../images/S_macaron.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 25rem;
+    border: solid #a8c7bb 1px;
+    border-radius: 20%;
+    margin-bottom: 10px;
 }
 
 .img-sweets-3 {
-  background-image: url("../images/S_Berry-Peach-Pie.webp");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 25rem;
-  border: solid #a8c7bb 1px;
-  border-radius: 20%;
-  margin-bottom: 10px;
+    background-image: url("../images/S_Berry-Peach-Pie.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 25rem;
+    border: solid #a8c7bb 1px;
+    border-radius: 20%;
+    margin-bottom: 10px;
 }
 
 .img-sweets-4 {
-  background-image: url("../images/S_cookies.jpeg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 25rem;
-  border: solid #a8c7bb 1px;
-  border-radius: 20%;
-  margin-bottom: 10px;
+    background-image: url("../images/S_cookies.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 25rem;
+    border: solid #a8c7bb 1px;
+    border-radius: 20%;
+    margin-bottom: 10px;
 }
+
+
 /* End of Cafe/Sweets */
 
 .cartIcon {
-  display: inline-block;
-  grid-area: cart;
-  border-radius: 20%;
-  padding: 5px;
-  width: 2.5em;
-  margin-left: 25px;
-  box-sizing: border-box;
-  cursor: pointer;
-}
-
-.cartIcon:hover {
-  background-color: #f092dd;
-}
-
-.form {
-  display: flex;
-  background-color: #f092dd;
-  width: 75%;
-  height: auto;
-  align-self: center;
-  border-color: #392f5a;
-  border-radius: 20%;
-  padding: 15px;
-  margin: 35px;
-}
-
-.formBox {
-  background-color: #eec8e0;
-}
-body {
-  background: #eec8e0;
-}
-
-form {
-  background-color: #f092dd;
-  width: 100%;
-}
-
-input {
-  background-color: #eec8e0;
-  padding: 0.5rem;
-  margin: 10px;
-  width: 85%;
-}
-
-#submit {
-  width: 75%;
-  margin-left: 12.5%;
-  height: 25%;
-  margin-bottom: 15%;
-  border-radius: 25%;
-}
-
-/* Cart page start */
-.items {
-  background: #eec8e0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 750px;
-  margin: 0 auto;
-}
-
-.myitem {
-  padding: 28px 21px 0 44px;
-}
-
-.myitem__top {
-  display: flex;
-}
-
-.myitem__detail {
-  font-family: "Baskervville", serif;
-  padding-left: 2px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 4px;
-  padding: 0 15px;
-}
-
-.myitem__detail span {
-  width: 35px;
-  height: 35px;
-  background: #f092dd;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 400;
-  font-size: 20px;
-  color: #392f5a;
-}
-
-.myitem__detail h2 {
-  font-weight: 400;
-  font-size: 12px;
-  color: #392f5a;
-}
-
-.myitem__detail h3 {
-  font-weight: 400;
-  font-size: 16px;
-  color: #392f5a;
-}
-
-.myitem__bottom h1 {
-  font-family: "Baskervville";
-  font-weight: 400;
-  font-size: 24px;
-  color: #392f5a;
-  text-align: center;
-  padding-top: 5px;
-}
-
-.myitem__total {
-  background: #f092dd;
-  border-radius: 10px;
-  width: 158px;
-  margin-left: auto;
-  margin-top: 20px;
-  margin-right: 20px;
-}
-
-.myitem__total p {
-  font-family: "Baskervville";
-  font-weight: 400;
-  font-size: 24px;
-  padding: 5px 0;
-  color: #392f5a;
-}
-
-.myitem__img {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.myitem__img img {
-  object-fit: contain;
-  width: 300px;
-}
-
-.checkout {
-  background: #F092DD;
-  border: 1px solid #392F5A;
-  border-radius: 10px;
-  margin: 26px 24px;
-  padding: 0 19px;
-  align-items: center;
-  max-width: 750px;
-  display: none;
-}
-
-.checkout__head {
-  text-align: center;
-  margin: 13px 0 18px 0;
-  font-family: 'Baskervville';
-  font-weight: 400;
-  font-size: 16px;
-  color: #000000;
-}
-
-.checkout__field {
-  background: #EEC8E0;
-}
-
-.br5 {
-  border-radius: 5px;
-}
-
-.checkout__field > input {
-  flex: 1;
-  height: 26.78px;
-  padding-left: 14px;
-  font-family: 'Baskervville';
-  font-weight: 400;
-  font-size: 12px;
-  color: #000000;
-  background: none;
-  border: inset #392f5a 0.5px;
-}
-
-input:focus-visible {
-  outline: none;
-}
-
-.field__name {
-  margin-bottom: 7px;
-}
-
-.checkout__tips {
-  width: 84px;
-  margin-top: 8px;
-}
-
-.checkout__tips > input {
-  width: 100%;
-  border: none;
-  background: #EEC8E0;
-  border-radius: 5px;
-  padding: 5px 4px;
-}
-
-.checkout__mid {
-  overflow: hidden;
-}
-
-.checkout__submit {
-  display: block;
-  margin: 0 auto;
-  width: 154px;
-  height: 49px;
-  border: none;
-  background: #FFAFF0;
-  border-radius: 5px;
-  font-family: 'Baskervville';
-  font-weight: 400;
-  font-size: 24px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  color: #000000;
-  margin-bottom: 24px;
-  cursor: pointer;
-}
-/* Cart end */
-
-.footer {
-  grid-area: footer;
-  display: flex;
-  font-family: "Baskerville", serif;
-  grid-template-columns: 6em 1fr 6em;
-  justify-content: center;
-  align-items: center;
-  background-color: #f092dd;
-  padding: 10px 20px;
-}
-
-/* Footer with back button */
-.footerBackButton {
-  grid-area: footer;
-  display: grid;
-  font-family: "Baskerville", serif;
-  grid-template-areas: "backbutton" "footertext" "dummy";
-  grid-template-columns: 6em 1fr 6em;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #f092dd;
-  padding: 10px 20px;
-}
-
-.footertext {
-  text-align: center;
-  background-color: #f092dd;
-}
-
-.textBGnone {
-  background-color: transparent;
-}
-
-@media screen and (max-width: 690px) {
-  .nav-nb {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    border-bottom: none;
-    background: transparent;
-    height: auto;
-    max-height: 0px;
-    overflow: clip;
-    transition: max-height ease-in-out 0.5s;
-  }
-  .navItem {
-    margin-top: 5px;
-  }
-  .nav-nb.nav-expand {
-    background-color: #eec8e0;
-    max-height: 500px;
-  }
-  .hamBurger {
     display: inline-block;
-    background-color: transparent;
-    grid-area: hamburger;
+    grid-area: cart;
     border-radius: 20%;
     padding: 5px;
     width: 2.5em;
     margin-left: 25px;
     box-sizing: border-box;
     cursor: pointer;
-  }
-  .hamBurger:hover {
-    background-color: #f092dd;
-  }
-  .hamBurger * {
-    background-color: transparent;
-  }
-  .picture {
-    height: 20em;
-  }
-  .form {
-    width: 75%;
-  }
 }
 
-@media screen and (min-width: 750px){
-  .myitem__img {
-      flex-direction: row;
-  }
+.cartIcon:hover {
+    background-color: #f092dd;
+}
 
-  .checkout {
-      margin: 26px auto;
-  }
+.form {
+    display: flex;
+    background-color: #f092dd;
+    width: 75%;
+    height: auto;
+    align-self: center;
+    border-color: #392f5a;
+    border-radius: 20%;
+    padding: 15px;
+    margin: 35px;
+}
+
+.formBox {
+    background-color: #eec8e0;
+}
+
+body {
+    background: #eec8e0;
+}
+
+form {
+    background-color: #f092dd;
+    width: 100%;
+}
+
+input {
+    background-color: #eec8e0;
+    padding: 0.5rem;
+    margin: 10px;
+    width: 85%;
+}
+
+#submit {
+    width: 75%;
+    margin-left: 12.5%;
+    height: 25%;
+    margin-bottom: 15%;
+    border-radius: 25%;
+}
+
+
+/* Cart page start */
+
+.items {
+    background: #eec8e0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.myitem {
+    padding: 28px 21px 0 44px;
+}
+
+.myitem__top {
+    display: flex;
+}
+
+.myitem__detail {
+    font-family: "Baskervville", serif;
+    padding-left: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    padding: 0 15px;
+}
+
+.myitem__detail span {
+    width: 35px;
+    height: 35px;
+    background: #f092dd;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 20px;
+    color: #392f5a;
+}
+
+.myitem__detail h2 {
+    font-weight: 400;
+    font-size: 12px;
+    color: #392f5a;
+}
+
+.myitem__detail h3 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #392f5a;
+}
+
+.myitem__bottom h1 {
+    font-family: "Baskervville";
+    font-weight: 400;
+    font-size: 24px;
+    color: #392f5a;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.myitem__total {
+    background: #f092dd;
+    border-radius: 10px;
+    width: 158px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.myitem__total p {
+    font-family: "Baskervville";
+    font-weight: 400;
+    font-size: 24px;
+    padding: 5px 0;
+    color: #392f5a;
+}
+
+.myitem__img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.myitem__img img {
+    object-fit: contain;
+    width: 300px;
+    border-radius: 10%;
+}
+
+.checkout {
+    background: #F092DD;
+    border: 1px solid #392F5A;
+    border-radius: 10px;
+    margin: 26px 24px;
+    padding: 0 19px;
+    align-items: center;
+    max-width: 750px;
+    display: none;
+}
+
+.checkout__head {
+    text-align: center;
+    margin: 13px 0 18px 0;
+    font-family: 'Baskervville';
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+}
+
+.checkout__field {
+    background: #EEC8E0;
+}
+
+.br5 {
+    border-radius: 5px;
+}
+
+.checkout__field>input {
+    flex: 1;
+    height: 26.78px;
+    padding-left: 14px;
+    font-family: 'Baskervville';
+    font-weight: 400;
+    font-size: 12px;
+    color: #000000;
+    background: none;
+    border: none;
+}
+
+input:focus-visible {
+    outline: none;
+}
+
+.field__name {
+    margin-bottom: 7px;
+}
+
+.checkout__tips {
+    width: 84px;
+    margin-top: 8px;
+}
+
+.checkout__tips>input {
+    width: 100%;
+    border: none;
+    background: #EEC8E0;
+    border-radius: 5px;
+    padding: 5px 4px;
+}
+
+.checkout__mid {
+    overflow: hidden;
+}
+
+.checkout__submit {
+    display: block;
+    margin: 0 auto;
+    width: 154px;
+    height: 49px;
+    border: none;
+    background: #FFAFF0;
+    border-radius: 5px;
+    font-family: 'Baskervville';
+    font-weight: 400;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 24px;
+    cursor: pointer;
+}
+
+
+/* Cart end */
+
+.footer {
+    grid-area: footer;
+    display: flex;
+    font-family: "Baskerville", serif;
+    grid-template-columns: 6em 1fr 6em;
+    justify-content: center;
+    align-items: center;
+    background-color: #f092dd;
+    padding: 10px 20px;
+}
+
+
+/* Footer with back button */
+
+.footerBackButton {
+    grid-area: footer;
+    display: grid;
+    font-family: "Baskerville", serif;
+    grid-template-areas: "backbutton" "footertext" "dummy";
+    grid-template-columns: 6em 1fr 6em;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f092dd;
+    padding: 10px 20px;
+}
+
+.footertext {
+    text-align: center;
+    background-color: #f092dd;
+}
+
+.textBGnone {
+    background-color: transparent;
+}
+
+@media screen and (max-width: 690px) {
+    .nav-nb {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        border-bottom: none;
+        background: transparent;
+        height: auto;
+        max-height: 0px;
+        overflow: clip;
+        transition: max-height ease-in-out 0.5s;
+    }
+    .navItem {
+        margin-top: 5px;
+    }
+    .nav-nb.nav-expand {
+        background-color: #eec8e0;
+        max-height: 500px;
+    }
+    .hamBurger {
+        display: inline-block;
+        background-color: transparent;
+        grid-area: hamburger;
+        border-radius: 20%;
+        padding: 5px;
+        width: 2.5em;
+        margin-left: 25px;
+        box-sizing: border-box;
+        cursor: pointer;
+    }
+    .hamBurger:hover {
+        background-color: #f092dd;
+    }
+    .hamBurger * {
+        background-color: transparent;
+    }
+    .picture {
+        height: 20em;
+    }
+    .form {
+        width: 75%;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .myitem__img {
+        flex-direction: row;
+    }
+    .checkout {
+        margin: 26px auto;
+    }
 }
 
 .checkout__show {
-  text-align: center;
-  padding: 50px 0 30px 0;
+    text-align: center;
+    padding: 50px 0 30px 0;
 }
 
 .checkout__btn {
-  padding: 10px 40px;
-  border: none;
-  border-radius: 5px;
-  background-color: #F092DD;
-  font-family: 'Baskervville';
-  font-weight: 600;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F092DD;
+    font-family: 'Baskervville';
+    font-weight: 600;
 }
 
 .checkout__btn:hover {
-  background-color: #cc5eb6;
-  cursor: pointer;
+    background-color: #cc5eb6;
+    cursor: pointer;
 }
