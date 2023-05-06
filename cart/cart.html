@@ -112,7 +112,7 @@
           </div>
         </div>
 
-        <div class="checkout__show">
+        <div class="checkout__show" onclick="toggleCheckout()">
           <button class="checkout__btn">Checkout</button>
         </div>
 
@@ -165,21 +165,20 @@
 
   <script>
     document.addEventListener("DOMContentLoaded", () => {
-      const checkout__btn = document.querySelector(".checkout__btn");
-      const checkout_div = document.querySelector(".checkout");
+      const checkoutBtn = document.querySelector(".checkout__btn");
+      const checkoutSection = document.querySelector(".checkout");
 
-      checkout__btn.addEventListener("click", () => {
-        checkout_div.style.display =
-          checkout_div.style.display === "block" ? "none" : "block";
-      });
+      checkoutBtn.addEventListener("click", toggleCheckout);
+
+      function toggleCheckout() {
+        checkoutSection.style.display =
+          checkoutSection.style.display === "block" ? "none" : "block";
+      }
     });
 
     function navToggle() {
-      if (document.getElementById("navbar").classList.contains("nav-expand")) {
-        document.getElementById("navbar").classList.remove("nav-expand");
-      } else {
-        document.getElementById("navbar").classList.add("nav-expand");
-      }
+      const navbar = document.getElementById("navbar");
+      navbar.classList.toggle("nav-expand");
     }
   </script>
 </html>

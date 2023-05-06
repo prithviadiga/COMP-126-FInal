@@ -498,6 +498,7 @@ input {
   margin: 26px 24px;
   padding: 0 19px;
   align-items: center;
+  justify-content: center;
   max-width: 750px;
   display: none;
 }
@@ -657,9 +658,12 @@ input:focus-visible {
     width: 75%;
   }
 }
+
 .checkout__show {
-  text-align: center;
-  padding: 50px 0 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
 }
 
 .checkout__btn {
